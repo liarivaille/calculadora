@@ -1,0 +1,10 @@
+.corpo{
+    background-color: lightpink;
+}
+.titulo{
+    font-size: 50px;color: lightcyan;background-color: aliceblue;text-align: center;
+}
+.text-imc{
+    font-size: 50px;
+    text-align: center;
+}
