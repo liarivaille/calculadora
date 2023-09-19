@@ -7,7 +7,7 @@
     <link rel="tylesheet" href="style.css">
     </head>
     <body class="corpo"> <br><br><br><br><br>
-        <h1 class="título">CALCULAR IMC DE:</h1>
+        <h1 class="titulo">CALCULAR IMC DE:</h1>
         <p class="texto-imc">
 
     <!--Fazendo o script java-->
@@ -17,10 +17,10 @@
         }
         alert("CLIQUE EM OK PARA COMEÇAR");
 //Criando variáveis 
-        let nome=prompt("Qual seu nome?);
-        let peso=prompt("nome + qual seu peso?);
-        let altura=prompt("nome = qual sua altura");
-        let calculo=prompt("peso,altura");
+        let nome=prompt("Qual seu nome?");
+        let peso=prompt(nome +", qual seu peso?");
+        let altura=prompt(nome, "qual sua altura?");
+        let calculo=calcular(peso,altura);
         let texto=", seu imc é:";
 //colocando duas casas decimais
         let imc=calculo.toFixed(2);
